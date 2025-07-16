@@ -1,0 +1,40 @@
+
+.hero{
+    
+    color: white;
+    background: #383638;
+    background: linear-gradient(164deg, rgba(56, 54, 56, 1) 0%, rgba(11, 11, 11, 1) 25%);
+    
+    &__wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+    &__title{
+        width: 42%;
+        h2{
+            font-size: 60px;
+        }
+        p{
+            padding-top: 20px;
+            color: #ddd;
+            font-size: 18px;
+        }
+
+    }
+    &__image{
+        margin-top: 50px;
+        width: 42%;
+        
+    }
+    &__search{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
