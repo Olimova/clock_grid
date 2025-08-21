@@ -1,0 +1,25 @@
+.info{
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $bg-py;
+        gap:74px;
+        border-radius: 22px;
+        padding: 33px 110px 43px;
+        margin-bottom: 91px;
+        p{
+            color: gray;
+            margin: 12px 0;
+        }
+    }
+    &__body{
+        h3{
+            max-width: 547px;
+            font-size:36px;
+            font-family: "Inter", sans-serif;
+        }
+    }
+    
+
+}

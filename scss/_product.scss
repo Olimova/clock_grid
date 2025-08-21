@@ -3,27 +3,47 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    &__wrapper{
+        .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 7px;
+            }
+    }
 
-    &__card{
+    &-card{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
         margin-bottom: 10px;
         padding: 10px;
         text-align: center;
-        
-        img{
-            padding: 10px;
-            margin: 10px 0;
-            background-color: aliceblue;
+
+        &__item{
+            h3 {
+                    font-size: 30px;
+                }
         }
         
+        
+
+        
+        &__image{
+            padding: 30px 42px;
+            margin: 10px 0;
+            background-color: $bg-py;
+        }
+        img{
+            margin: 10px 0;
+        }
     }
     &__title{
         display: grid; 
         justify-content: center;
         align-items: center;
-        margin: 165px 0 65px 0;
+        margin:65px 0;
         text-align: center;
         
 
@@ -43,4 +63,20 @@
     }
     
     
+}
+.item{
+    &-price{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:2px;
+    }
+    &-old__price{
+        color: gray;
+    text-decoration: line-through gray 2px;
+    }
+    &-new__price{
+        font-size: 22px;
+    }
+
 }

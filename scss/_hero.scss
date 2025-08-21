@@ -1,6 +1,5 @@
 
 .hero{
-    
     color: white;
     background: #383638;
     background: linear-gradient(164deg, rgba(56, 54, 56, 1) 0%, rgba(11, 11, 11, 1) 25%);
@@ -10,12 +9,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 142px 0;
+    
+    }
+    &__box{
+        margin-top: 47px;
     }
   
     &__title{
         width: 42%;
         h2{
-            font-size: 60px;
+            max-width: 457px;
+            font-size: 65px;
+            font-family: "Poppins", sans-serif;
         }
         p{
             padding-top: 20px;
@@ -28,12 +34,6 @@
         margin-top: 50px;
         width: 42%;
         
-    }
-    &__search{
-        padding-top: 20px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
     }
 }
 
