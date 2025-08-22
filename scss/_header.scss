@@ -5,6 +5,7 @@ header {
     height: 70px;
     align-items: center;
     position: absolute;
+    z-index: 1;
 }
 
 .navbar {
@@ -27,10 +28,46 @@ header {
             transition: .2s;
             text-decoration: none;
                 &:hover {
-                    color: blueviolet;
+                    color:$bg-py;
                     cursor: pointer;
                 }
         }
     }
+    &__options{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;   
+    }
+    &__menu{
+        display: none;
+    }
 
+}
+
+@media (max-width:990px) {
+    .navbar {
+            &__collection {
+                display: none;
+            }
+    
+            &__options {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background: black;
+                border-top: 2px solid #ddd;
+                padding: 14px;
+                justify-content: space-evenly;
+            }
+        }
+        
+}
+
+@media(max-width:600px){
+    &__menu{
+            border: 1px solid red;
+            display: block;
+            color: white;
+        }
 }

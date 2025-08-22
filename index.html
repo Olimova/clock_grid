@@ -9,6 +9,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+     <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.min.css">
     <title>Mohid</title>
@@ -50,17 +54,13 @@
                     </a>
                 </li>
             </ul>
-
+            <div class="navbar__menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="navbar__options">
-                <a href="#">
-                    <img src="./assets/icon/Search.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="./assets/icon/Person.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="./assets/icon/Shopping Cart.svg" alt="">
-                </a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-circle-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
         </nav>
     </header>
@@ -114,7 +114,7 @@
         <section class="product" id="product">
             <div class="container">
                 <div class=" product__wrapper">
-                <div class="product__title">
+                <div class="title">
                     <a href="">Find your favourite smart watch.</a>
                     <h2>Our Latest Products</h2>
                 </div>
@@ -123,7 +123,7 @@
                         <img class="product-card__image" src="./assets/img/ex1.png" alt="">
                         <div class="product-card__item">
                             <h3>Apple Smart I</h3>
-                            <img src="./assets/fonts/yulduzchalar.png" alt="">
+                            <img src="./assets/icon/Group 13.svg" alt="">
                             <div class="item-price">
                                 <p class="item-old__price">$199.000</p>
                                 <p class="item-new__price"><b>$255.00</b></p>
@@ -134,7 +134,7 @@
                         <img class="product-card__image" src="./assets/img/ex2.png" alt="">
                         <div class="product-card__item">
                             <h3>Apple Smart II</h3>
-                            <img src="./assets/fonts/yulduzchalar.png" alt="">
+                            <img src="./assets/icon/Group 13.svg" alt="">
                             <div class="item-price">
                                 <p class="item-old__price">$199.000</p>
                                 <p class="item-new__price"><b>$255.00</b></p>
@@ -145,7 +145,7 @@
                         <img class="product-card__image" src="./assets/img/ex3.png" alt="">
                         <div class="product-card__item">
                             <h3>Apple Smart III</h3>
-                            <img src="./assets/fonts/yulduzchalar.png" alt="">
+                            <img src="./assets/icon/Group 13.svg" alt="">
                             <div class="item-price">
                                 <p class="item-old__price">$199.000</p>
                                 <p class="item-new__price"><b>$255.00</b></p>
@@ -156,7 +156,7 @@
                         <img class="product-card__image" src="./assets/img/ex4.png" alt="">
                         <div class="product-card__item">
                             <h3>Apple Smart IV</h3>
-                            <img src="./assets/fonts/yulduzchalar.png" alt="">
+                            <img src="./assets/icon/Group 13.svg" alt="">
                             <div class="item-price">
                                 <p class="item-old__price">$450.000</p>
                                 <p class="item-new__price"><b>$399.00</b></p>
@@ -167,7 +167,7 @@
                         <img class="product-card__image" src="./assets/img/ex5.png" alt="">
                         <div class="product-card__item">
                             <h3>Samsung Watch Pro</h3>
-                            <img src="./assets/fonts/yulduzchalar.png" alt="">
+                            <img src="./assets/icon/Group 13.svg" alt="">
                             <div class="item-price">
                                 <p class="item-old__price">$300.000</p>
                                 <p class="item-new__price"><b>$255.00</b></p>
@@ -178,7 +178,7 @@
                         <img class="product-card__image" src="./assets/img/ex6.png" alt="">
                         <div class="product-card__item">
                             <h3>Fitbit Max 1</h3>
-                            <img src="./assets/fonts/yulduzchalar.png" alt="">
+                            <img src="./assets/icon/Group 13.svg" alt="">
                             <div class="item-price">
                                 <p class="item-new__price"><b>$155.00</b></p>
                             </div>
@@ -191,6 +191,38 @@
                     </button>
                 </div>
             </div>
+            </div>
+        </section>
+        <section class="carusel">
+            <div class="container">
+                <div class="carusel-wrapper">
+                    <div class="title">
+                        <a href="">Here are our some of the best clients.</a>
+                        <h2>What People Say About Us</h2>
+                    </div>
+                    <div class="carusel__body">
+                        <div class="carusel__card">
+                            <div class="carusel__image"><img src="./assets/img/carusel1.png" alt=""></div>
+                            <div class="carusel__text">
+                                <h3>Hamza Faizi</h3>
+                                <p>Don’t waste time, just order! This is the best website to puschase smart watches.</p>
+                                <div class="star">
+                                    <img src="./assets/icon/Group 13.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carusel__card">
+                            <div class="carusel__image"><img src="./assets/img/carusel.png" alt=""></div>
+                            <div class="carusel__text">
+                                <h3>Hafiz Huzaifa</h3>
+                                <p>I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.</p>
+                                <div class="star">
+                                    <img src="./assets/icon/Group 13.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="info">
@@ -210,6 +242,7 @@
                 </div>
             </div>
         </section>
+        
     </main>
     <footer>
         <div class="footer">
